@@ -1,6 +1,6 @@
 compatibility_date = "2023-10-16"
 main = "src/index.ts"
-name = "r2-webdav"
+name = "r2-api-dudua"
 
 node_compat = true
 
@@ -8,7 +8,7 @@ node_compat = true
 # Docs: https://developers.cloudflare.com/r2/api/workers/workers-api-usage/
 [[r2_buckets]]
 binding = "bucket" # <~ valid JavaScript variable name
-bucket_name = "webdav"
+bucket_name = "api-dudua"
 
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
 [observability]
